@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+    <head>
+            <title> CSS LAYOUTS </title>
+                <meta charset="utf-8">
+            <meta name = "viewport" content="width-device, initial-scale = 1 ">
+        <style>
+            *{ box-sizing: border-box;
+
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            /* Header*/
+            header {
+                background-color: #301934;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+
+            }
+
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px;
+                background: #FADA5E;
+                padding: 20px;
+            }
+
+            nav ul{
+                list-style-type: none;
+                padding: 0;
+            }
+
+            article{
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color:#98FB98 ;
+                height: 300px;
+            }
+
+            section::after{
+                content: "";
+                display: table;
+                clear: both;
+
+            }
+
+            footer{
+                background-color: #301934;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+            @media (max-width: 600px) {
+                nav, article {
+                width: 100%;
+                height: auto;
+                }
+            }
+        
+  
+
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1> Technology Rules!</h1>
+            <p>Technology lends immense support in automating various tasks, 
+            setting up reminders, communicating efficiently, 
+            paying bills at the click of a button, 
+            and shopping for the simplest things, 
+            such as groceries to investing in v
+            aluable assets right in the comfort of our homes.
+
+         </p>
+        <header>
+            <h2>Technology</h2>
+         </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">Laptops</a> </li>
+                    <li><a href="#">Computers</a> </li>
+                    <li><a href="#'" > Cellphones </a>  </li>
+                </ul>
+            </nav>
+
+            <article>
+                <H2>Electronics</H2>
+                    <p>Future Technology means any Invention within the Defined Field 
+                        developed, discovered or disclosed, either solely or jointly,
+                         within seven (7) years of the effective date of this agreement 
+                         any member or members of the Research Team or any Assistant, a
+                         nd shall include any rights of the University under any domestic 
+                         or foreign patent applications with respect thereto and any cons, 
+                         continuations-in-part and divisionals thereof, and any domesticr 
+                         foreign patents issuing with respect thereto, including any s
+                          reissues thereof. The determination of whether an Invention is 
+                          Defined Field shall be made by LICENSOR within thirty (30) days 
+
+                    </p>
+
+
+
+            </article>
+
+        </section>
+           
+
+            <footer><p>By Zaldy Mar Ybanez</p></footer>
+    </body>
+    
+</html>
